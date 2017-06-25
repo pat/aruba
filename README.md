@@ -40,7 +40,7 @@ Or install it yourself as:
 
 ## Documentation
 
-![aruba@Cucumber Pro](https://github.com/cucumber-ltd/brand/raw/master/images/png/notm/cucumber-pro-black/cucumber-pro-black-128.png)
+Our documentation can be found on ![aruba@Cucumber Pro](https://github.com/cucumber-ltd/brand/raw/master/images/png/notm/cucumber-pro-black/cucumber-pro-black-64.png)
 
 ## Build Status
 
