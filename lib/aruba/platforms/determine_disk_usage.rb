@@ -7,7 +7,7 @@ module Aruba
     # Determinate disk usage
     #
     # @private
-    class DetermineDiskUsage
+    class DetermineDiskUsageUnix
       def call(*args)
         args = args.flatten
 
@@ -29,5 +29,14 @@ module Aruba
         FileSize.new(size)
       end
     end
+
+    class DetermineDiskUsageWindows
+      def call(*args)
+        MyPlatform.new.not_imeplemented
+      end
+    end
+
+    # DetermineDiskUsage = platform.get_operation("DetermineDiskUsage")
+    class DetermineDiskUsage < MyPlatform; end
   end
 end

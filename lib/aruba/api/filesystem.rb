@@ -390,7 +390,7 @@ module Aruba
         # what the disk usage of a file is (even if Aruba.config needs to be
         # read)
         deprecated_block_count = fs_unit_size / block_multiplier
-        Aruba.platform.determine_disk_usage(expanded, deprecated_block_count)
+        Aruba::DetermineDiskUsage.call(expanded, deprecated_block_count)
       end
 
       # Get size of file
